@@ -34,7 +34,7 @@ window.onload = function(){
 
 // Hint Count Function
 // Check count and increase and re-enable if required
-function hitCountCheck() {
+function hintCountCheck() {
     if (remainingHintCount < 3 ) {
         remainingHintCount++;
         // update text in container
@@ -112,7 +112,7 @@ $("#check-color-btn").on("click",function(){
             // Upon completion update problem number and make next problem visible
             document.getElementById('part-two-container').style.display = 'block';
             currentProblem = "Two";
-            hitCountCheck();
+            hintCountCheck();
     } else {
         console.log("try again")
         $("#error").text("try again")
@@ -136,7 +136,7 @@ $("#check-direction-btn").on("click",function(){
             // Upon completion update problem number and make next problem visible
             document.getElementById('part-three-container').style.display = 'block';
             currentProblem = "Three";
-            hitCountCheck();
+            hintCountCheck();
     } else {
         console.log("try again");
         $("#error-two").text("try again");
