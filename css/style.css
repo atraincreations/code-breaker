@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url(web.jpg);
+    background: url(/img/web.jpg);
     background-position: left;
     background-attachment: fixed;
     font-family: 'Rajdhani', sans-serif;
