@@ -28,7 +28,7 @@ var numberFour; // Should be: 17
 window.onload = function(){
     document.getElementById('part-two-container').style.display = 'none';
     document.getElementById('part-three-container').style.display = 'none';
-    //document.getElementById('you-win').style.display = 'none';
+    document.getElementById('you-win').style.display = 'none';
     $("#hints-remaining").text(remainingHintCount);
 }
 
