@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url(Dust-Textures-05-1600x1200.jpg);
+    background: url(web.jpg);
     background-position: left;
     font-family: 'Rajdhani', sans-serif;
 }
@@ -25,7 +25,7 @@ button {
 }
 
 .hint-container {
-    background-color: rgba(255, 255, 255, .75);
+    background-color: rgba(255, 255, 255, .85);
     margin-top: 10vh;
     border-radius: 5px;
     -webkit-box-shadow: 4px 4px 23px -2px rgba(0,0,0,0.6);
@@ -35,7 +35,7 @@ button {
 }
 
 .hint-title {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .hint-count-text {
@@ -55,7 +55,7 @@ button {
 }
 
 .part-one-container {
-    background-color: rgba(255, 255, 255, .75);
+    background-color: rgba(255, 255, 255, .85);
     margin-top: 10vh;
     border-radius: 5px;
     -webkit-box-shadow: 4px 4px 23px -2px rgba(0,0,0,0.6);
@@ -82,7 +82,7 @@ button {
 }
 
 .part-two-container {
-    background-color: rgba(255, 255, 255, .75);
+    background-color: rgba(255, 255, 255, .85);
     margin-top: 10vh;
     border-radius: 5px;
     -webkit-box-shadow: 4px 4px 23px -2px rgba(0,0,0,0.6);
@@ -113,7 +113,7 @@ input {
 }
 
 .part-three-container {
-    background-color: rgba(255, 255, 255, .75);
+    background-color: rgba(255, 255, 255, .85);
     margin-top: 10vh;
     border-radius: 5px;
     -webkit-box-shadow: 4px 4px 23px -2px rgba(0,0,0,0.6);
@@ -134,7 +134,7 @@ input {
 }
 
 .you-win {
-    background-color: rgba(255, 255, 255, .75);
+    background-color: rgba(255, 255, 255, .85);
     margin-top: 10vh;
     border-radius: 5px;
     -webkit-box-shadow: 4px 4px 23px -2px rgba(0,0,0,0.6);
