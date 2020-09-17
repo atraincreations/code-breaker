@@ -18,7 +18,8 @@
         </div>
 
         <div class="part-one-container" id="part-one-container">
-            <h1 class="title-one">Title One Test</h1>
+            <h1 class="title-one">Puzzle One</h1>
+            <p class="error" id="error">awaiting input</p>
             <div class="color-pickers">
                 <select id="color-1">
                     <option value="red">red</option>
@@ -47,17 +48,58 @@
             </div>
             <button type="submit" id="check-color-btn">Check</button>
         </div>
+
         <div class="part-two-container" id="part-two-container">
-            <h1 class="title-two">Title Two Test</h1>
+            <h1 class="title-two">Puzzle 2</h1>
+            <p class="error-two" id="error-two">awaiting input</p>
             <div class="direction-input">
-                <input type="number" id="direction-1" placeholder="North">
-                <input type="number" id="direction-2" placeholder="East">
-                <input type="number" id="direction-3" placeholder="South">
-                <input type="number" id="direction-4" placeholder="West">
+                1.<select id="direction-1">
+                    <option value="north">north</option>
+                    <option value="south">south</option>
+                    <option value="east">east</option>
+                    <option value="west">west</option>
+                </select>
+                2.<select id="direction-2">
+                    <option value="north">north</option>
+                    <option value="south">south</option>
+                    <option value="east">east</option>
+                    <option value="west">west</option>
+                </select>
+                3.<select id="direction-3">
+                    <option value="north">north</option>
+                    <option value="south">south</option>
+                    <option value="east">east</option>
+                    <option value="west">west</option>
+                </select>
+                4.<select id="direction-4">
+                    <option value="north">north</option>
+                    <option value="south">south</option>
+                    <option value="east">east</option>
+                    <option value="west">west</option>
+                </select>
             </div>
             <button type="submit" id="check-direction-btn">Check</button>
         </div>
-            
+
+        <div class="part-three-container" id="part-three-container">
+            <h1 class="title-three">Puzzle 3</h1>
+            <p class="error-three" id="error-three">awaiting input</p>
+            <div class="direction-number-input">
+                <input type="number" id="number-1" placeholder="number">
+                <input type="number" id="number-2" placeholder="number">
+                <input type="number" id="number-3" placeholder="number">
+                <input type="number" id="number-4" placeholder="number">
+            </div>
+            <button type="submit" id="check-number-btn">Check</button>
+        </div>
+
+        <div class="you-win" id="you-win">
+            <h1 class="title-win">You Won!</h1>
+            <div class="win-body">
+                <h3 class="win-instructions">You may now leave the house</h3>
+                <p class="win-hints-remaining" id="win-hints-remaining">hints-remaining</p>
+            </div>
+        </div>
         
     </div>
     
